@@ -1,0 +1,9 @@
+# Python artifacts
+__pycache__
+*.pyc
+.venv
+
+# Node artifacts
+node_modules
+.next
+dist
