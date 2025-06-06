@@ -1,5 +1,4 @@
 from pydantic import BaseModel
-from typing import List
 
 class HedgeStrategyInput(BaseModel):
     exposure_type: str
