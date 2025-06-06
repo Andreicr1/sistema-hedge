@@ -19,10 +19,7 @@ sistema_hedge/
 ├── app/              # Código do backend
 │   ├── main.py
 │   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── tests/
-├── frontend/         # Projeto Next.js
+│   └── routes/
 └── requirements.txt
 ```
 
@@ -38,12 +35,15 @@ sistema_hedge/
    ```
 
 ### Frontend
-1. Instale as dependências do projeto React:
+O diretório `frontend/` não acompanha este repositório e deve ser criado 
+separadamente. Para inicializar o ambiente:
+1. Crie um projeto Next.js (caso ainda não exista):
+   ```bash
+   npx create-next-app@latest frontend
+   ```
+2. Instale as dependências e inicie o servidor de desenvolvimento:
    ```bash
    cd frontend
    npm install
-   ```
-2. Inicie o servidor de desenvolvimento:
-   ```bash
    npm run dev
    ```
