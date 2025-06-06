@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+from typing import List
 from app.models.hedge_strategy import HedgeStrategyInput, HedgeStrategyOutput
 
 router = APIRouter()
